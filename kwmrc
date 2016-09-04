@@ -183,10 +183,10 @@ kwmc bindsym cmd+alt+ctrl-j window -mk south wrap
 kwmc bindsym cmd+alt+ctrl-k window -mk north wrap
 
 // Give Focus To Window
-kwmc bindsym cmd+alt-h window -f west
-kwmc bindsym cmd+alt-l window -f east
-kwmc bindsym cmd+alt-j window -f south
-kwmc bindsym cmd+alt-k window -f north
+kwmc bindsym cmd+shift-h window -f west
+kwmc bindsym cmd+shift-l window -f east
+kwmc bindsym cmd+shift-j window -f south
+kwmc bindsym cmd+shift-k window -f north
 
 kwmc bindsym cmd+alt-n window -fm prev
 kwmc bindsym cmd+alt-m window -fm next
